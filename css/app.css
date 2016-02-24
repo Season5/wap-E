@@ -54,6 +54,29 @@
     color: #f7f6ff;
     border-bottom: 2px solid rgba(0,0,0, 0.3);
 }
+
+.modalDialog button:hover{
+    outline: none;
+}
+
+.modalDialog button:focus{
+    outline: none;
+}
+
+.modalDialog button:active{
+    outline: none;
+    position: relative;
+    border: none;
+    top: 2px;
+}
+
+.modalDialog hr{
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid #f4f4f4;
+/*    margin: auto;*/
+    margin-bottom: 10px;
+}
 .close{
     background: #606061;
     color: #FFFFFF;
