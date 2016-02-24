@@ -1,6 +1,8 @@
 
 .hero {
     background-color: cadetblue;
+    width 100%;
+    height: 100%;
 }
 
 .modalDialog {
@@ -43,7 +45,7 @@
 }
 
 .modalDialog p{
-    color: #b8b8b8;
+    color: #0f0505;
     font-size: 13px;
 }
 
@@ -77,6 +79,23 @@
 /*    margin: auto;*/
     margin-bottom: 10px;
 }
+
+.Social {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.facebook {
+  background-color: #2a344d;
+}
+
+.twitter {
+  background-color: #56A0DE;
+}
+
+.google {
+  background-color: #DC4C30;
+}
 .close{
     background: #606061;
     color: #FFFFFF;
@@ -101,4 +120,8 @@
 .close:hover {
     background: #00d9ff;
 
+}
+
+.button {
+    margin: 50%;
 }
