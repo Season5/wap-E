@@ -38,7 +38,22 @@
     background: -webkit-linear-gradient(#fff, #999);
     background: -o-linear-gradient(#fff,#999);
 }
+.modalDialog h2{
+    padding: 20px;
+}
 
+.modalDialog p{
+    color: #b8b8b8;
+    font-size: 13px;
+}
+
+.modalDialog button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #f7f6ff;
+    border-bottom: 2px solid rgba(0,0,0, 0.3);
+}
 .close{
     background: #606061;
     color: #FFFFFF;
