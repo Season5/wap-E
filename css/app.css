@@ -145,3 +145,5 @@
 
 }
 
+.group:hover .overlay {opacity: 1}
+.group:hover .descrpition{opacity: 1}
