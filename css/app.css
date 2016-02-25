@@ -133,3 +133,15 @@
     overflow: hidden;
     position: relative;
 }
+
+.overlay{
+    background: rgba(255,255,255,0.2);
+    position: absolute;
+    top: 0px;
+    width: inherit;
+    height: inherit;
+    opacity: 0;
+    transition: .5s opacity ease-in-out;
+
+}
+
